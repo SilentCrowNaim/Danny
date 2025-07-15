@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>All About Danny</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, red, white, navy);
+      color: black;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 30px;
+      background-color: red, white, navy;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+
+    h1, h2 {
+      color:  black;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      margin-top: 40px;
+      border-bottom: 2px solid black;
+      padding-bottom: 5px;
+    }
+
+    p, li {
+      font-size: 1.1rem;
+      line-height: 1.7;
+    }
+
+    ol, ul {
+      margin-left: 30px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+      font-size: 1.1rem;
+    }
+
+    th, td {
+      padding: 12px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+
+    th {
+      background-color: black;
+      color: white;
+    }
+
+    td {
+      background-color: #f9f9f9;
+    }
+
+    button {
+      display: block;
+      margin: 30px auto 10px;
+      padding: 15px 30px;
+      font-size: 1.1rem;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      box-shadow: 0 5px 15px rgba(0, 119, 204, 0.3);
+    }
+
+    button:hover {
+      background-color: #005fa3;
+      transform: scale(1.05);
+    }
+
+    strong {
+      display: block;
+      text-align: center;
+      font-size: 1.2rem;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        margin: 20px;
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      button {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>All About Danny</h1>
+
+    <h2>Background Information</h2>
+    <p>
+      Danny is a dog lover and a former Marine with 5 years of service. He’s passionate about making a difference in the field of cybersecurity.
+      With a strong sense of duty and an observant nature, Danny thrives both in high-pressure environments and team settings.
+      His military experience brings tactical expertise that seamlessly translates into the technical world.
+    </p>
+
+    <h2>His Interests and Hobbies</h2>
+    <p>
+      As a Marine veteran, Danny is driven by purpose. Whether he's helping others grow or lifting team morale, his presence is impactful.
+      Like a general on the battlefield, Danny can boost the team's spirit and performance by 25% just by being in the room.
+    </p>
+
+    <h2>His Training Regimen</h2>
+    <p>Danny's fitness stems not only from his military background but also from his culturally rich upbringing. His daily workout includes:</p>
+    <ol>
+      <li>1,000 Push-ups</li>
+      <li>1,000 Sit-ups</li>
+      <li>1,000 Squats</li>
+      <li>8 KM Run</li>
+    </ol>
+
+    <h2>Favorite Foods</h2>
+    <ul>
+      <li>Egg Rolls</li>
+      <li>Bánh Mì Sandwich</li>
+      <li>Phở</li>
+      <li>Fried Chicken</li>
+      <li>Watermelon</li>
+      <li>Kool-Aid</li>
+    </ul>
+
+    <h2>Vital Stats</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Age</th>
+          <th>Height</th>
+          <th>Weight</th>
+          <th>Is He That Guy?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>28</td>
+          <td>5'6"</td>
+          <td>125 lbs</td>
+          <td>Absolutely</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Want to Connect with Danny?</h2>
+    <strong>Only press this button if you're ready to connect with a legend!</strong>
+    <button onclick="window.location.href='https://www.linkedin.com/in/dannyvoravong/'">
+      CONNECT WITH DANNY
+    </button>
+  </div>
+</body>
+</html>
